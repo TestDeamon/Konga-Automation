@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="C:/Users/USER/IdeaProjects/Konga">
+        <classes>
+            <class name="Konga.KongaTests">
+                <methods>
+                    <include name="testHomepage"/>
+                    <include name="testLoginPage"/>
+                    <include name="testSearchPage"/>
+                    <include name="testCheckoutPage"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
